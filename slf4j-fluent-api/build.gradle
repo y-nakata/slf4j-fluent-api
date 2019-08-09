@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.slf4j:slf4j-api:2.0.0-alpha0'
+    
+    // slf4j-simple
+    implementation 'org.slf4j:slf4j-simple:2.0.0-alpha0'
+
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.12'
+}
